@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00F0F0F0" >
+        </androidx.appcompat.widget.SearchView>
+
+        <Tools.MyBanner
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:id="@+id/banner_shopping"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#00FFFFFF"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#C94CAF50"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热销茶"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#C94CAF50"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tree_2"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="最新"
+                    android:textSize="9dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bt"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥119.9"
+                        android:textSize="15dp"
+                        android:textColor="#C94CAF50"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥129.9"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#C94CAF50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="【商洛山茶】"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="陕西商..."/>
+
+                </LinearLayout>
+
+
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/adopt"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tree_2"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="最新"
+                    android:textSize="9dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bt"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥119.9"
+                        android:textSize="15dp"
+                        android:textColor="#C94CAF50"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥129.9"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#C94CAF50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="【商南茶】"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2022陕西..."/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/adopt"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:layout_weight="1"
+
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="1/1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#00FFFFFF"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#C94CAF50"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="茶盲盒"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#C94CAF50"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tree_2"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="最新"
+                    android:textSize="9dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bt"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥119.9"
+                        android:textSize="15dp"
+                        android:textColor="#C94CAF50"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥129.9"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#C94CAF50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="【商洛山茶】"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="陕西商..."/>
+
+                </LinearLayout>
+
+
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/adopt"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:layout_weight="1"
+
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="1/1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#00FFFFFF"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#C94CAF50"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="茶礼盒"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#C94CAF50"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tree_2"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="最新"
+                    android:textSize="9dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bt"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥119.9"
+                        android:textSize="15dp"
+                        android:textColor="#C94CAF50"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥129.9"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#C94CAF50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="【商洛山茶】"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="陕西商..."/>
+
+                </LinearLayout>
+
+
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/adopt"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tree_2"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="最新"
+                    android:textSize="9dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bt"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥119.9"
+                        android:textSize="15dp"
+                        android:textColor="#C94CAF50"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥129.9"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#C94CAF50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="【商南茶】"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2022陕西..."/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/adopt"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:layout_weight="1"
+
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="1/1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#ADD67C"
+                android:background="@drawable/border1"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#00FFFFFF"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#C94CAF50"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="茶叶咨询"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#C94CAF50"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

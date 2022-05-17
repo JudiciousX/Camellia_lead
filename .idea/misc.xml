@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Camellialead/app/src/main/res/drawable/border.xml" value="0.1285" />
+        <entry key="..\:/Camellialead/app/src/main/res/drawable/border1.xml" value="0.13" />
+        <entry key="..\:/Camellialead/app/src/main/res/drawable/bt.xml" value="0.1195" />
+        <entry key="..\:/Camellialead/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/activity_tree_bush_shopping.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/home_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/home_recycler.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/menu.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/search.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/shopping_fragment.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/treebush_fragment.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/treebush_fragment2.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/treebush_fragment3.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/layout/treebush_fragment4.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/menu/menu.xml" value="0.30416666666666664" />
+        <entry key="..\:/Camellialead/app/src/main/res/menu/navigation.xml" value="0.22" />
+        <entry key="..\:/Camellialead/app/src/main/res/xml/border.xml" value="0.30416666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

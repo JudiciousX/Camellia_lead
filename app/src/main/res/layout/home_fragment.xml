@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:dapeng="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00F0F0F0" >
+        </androidx.appcompat.widget.SearchView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Tools.MyBanner
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/mybanner_home"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DCD8B5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/inform"
+                    android:background="#DCD8B5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"/>
+
+
+                <Tools.CustomScrollBar
+                    android:id="@+id/hor"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-40dp"
+                    android:background="#DCD8B5"
+                    dapeng:clickEnable="false"
+                    dapeng:isHorizontal="true"
+                    dapeng:speed="2"
+                    dapeng:text="体贴你的心和胃，商洛山茶越喝越有味！"
+                    dapeng:textColor="#D60606"
+                    dapeng:textSize="18sp"
+                    dapeng:times="3" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/pic1"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_home"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="店铺活动"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注送礼全场通用"
+                android:layout_marginLeft="5dp"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pic2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="暂无数据"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="热门榜单"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D6D1D1"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/tree_2"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:text="最新"
+                        android:textSize="9dp"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bt"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥119.9"
+                            android:textSize="15dp"
+                            android:textColor="#C94CAF50"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥129.9"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#C94CAF50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="【商洛山茶】"
+                            android:layout_marginLeft="2dp"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="陕西商..."/>
+
+                    </LinearLayout>
+
+
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/adopt"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/tree_2"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:text="最新"
+                        android:textSize="9dp"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bt"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥119.9"
+                            android:textSize="15dp"
+                            android:textColor="#C94CAF50"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥129.9"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#C94CAF50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="【商南茶】"
+                            android:layout_marginLeft="2dp"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2022陕西..."/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/adopt"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:layout_weight="1"
+
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="1/1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="为你推荐"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D6D1D1"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/tree_2"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:text="最新"
+                        android:textSize="9dp"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bt"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥119.9"
+                            android:textSize="15dp"
+                            android:textColor="#C94CAF50"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥129.9"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#C94CAF50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="【商洛山茶】"
+                            android:layout_marginLeft="2dp"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="陕西商..."/>
+
+                    </LinearLayout>
+
+
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/adopt"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/tree_2"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:text="最新"
+                        android:textSize="9dp"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bt"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥119.9"
+                            android:textSize="15dp"
+                            android:textColor="#C94CAF50"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="￥129.9"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#C94CAF50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="【商南茶】"
+                            android:layout_marginLeft="2dp"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2022陕西..."/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/adopt"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:layout_weight="1"
+
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="1/1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/tree_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="品牌文化"/>
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:layout_weight="1"
+
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="1/1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ADD67C"
+                    android:background="@drawable/border1"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
